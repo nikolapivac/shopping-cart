@@ -1,0 +1,64 @@
+@import url('https://css.gg/shopping-cart.css');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {
+    /* colors */
+    --header-color: rgb(77, 16, 16);
+    --header-text-color: rgb(205, 195, 160);
+    --higlight: rgb(216, 210, 191);
+    /* fonts */
+    --header-font: 'Aboreto', cursive;
+}
+
+body{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-color);
+    color: var(--header-text-color);
+    padding: 16px;
+    font-family: var(--header-font);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.cart_area {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    gap: 8px;
+    background-color: var(--header-text-color);
+    color: var(--header-color);
+    padding: 0 8px;
+    border-radius: 16px;
+    transition: transform 0.25s ease-in;
+}
+
+.nav_item,
+.gg-shopping-cart {
+    transition: transform 0.25s ease-in;
+}
+
+.nav_item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.cart_area:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: var(--header-text-color);
+}
