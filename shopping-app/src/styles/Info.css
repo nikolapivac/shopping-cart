@@ -1,10 +1,5 @@
 * {
     margin: 0;
-    /* colors */
-    --bg-color: rgb(205, 195, 160);
-    --text-color: rgb(77, 16, 16);
-    /* fonts */
-    --font: 'Aboreto', cursive;
     /* shadow */
     --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -13,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     padding: 8% 0;
-    background-color: var(--bg-color);
+    background-color: var(--yellow);
 }
 
 .info_card {
@@ -33,6 +28,6 @@
 .info_desc {
     align-self: center;
     font-family: var(--font);
-    color: var(--text-color);
+    color: var(--red);
 }
 

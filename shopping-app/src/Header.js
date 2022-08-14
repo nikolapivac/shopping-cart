@@ -4,7 +4,7 @@ import "./styles/Header.css"
 const Header = () => {
     return(
         <div className="header">
-            <div className="logo">Winery Logo</div>
+            <div className="logo">Winery</div>
             <div className="navbar">
                 <a href="/" className="nav_item">Home</a>
                 <a href="/products" className="nav_item">Products</a>

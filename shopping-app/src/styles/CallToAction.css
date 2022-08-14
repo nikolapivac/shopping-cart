@@ -1,11 +1,5 @@
 * {
     margin: 0;
-    /* colors */
-    --title-color: rgb(77, 16, 16);
-    --btn-color: rgb(205, 195, 160);
-    --higlight: rgb(216, 210, 191);
-    /* fonts */
-    --font: 'Aboreto', cursive;
 }
 
 .cta_container {
@@ -14,7 +8,7 @@
     background-image: url("../images/home_banner.jpg");
     background-size: cover;
     padding: 120px;
-    border-bottom: 1px solid var(--title-color);
+    border-bottom: 1px solid var(--red);
 }
 
 .cta_items {
@@ -26,7 +20,7 @@
 
 .cta_title {
     font-size: 72px;
-    color: var(--title-color);
+    color: var(--red);
     font-family: var(--font);
 }
 
@@ -38,15 +32,15 @@ a{
     padding: 8px 48px;
     font-size: 16px;
     font-family: var(--font);
-    background-color: var(--btn-color);
-    color: var(--title-color);
+    background-color: var(--yellow);
+    color: var(--red);
     border: none;
     border-radius: 16px;
     transition: background-color 0.25s ease-in;
 }
 
 .cta_btn:hover {
-    color: var(--btn-color);
-    background-color: var(--title-color);
+    color: var(--yellow);
+    background-color: var(--red);
     cursor: pointer;
 }

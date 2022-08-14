@@ -2,22 +2,14 @@
 @import url('https://css.gg/instagram.css');
 @import url('https://css.gg/twitter.css');
 
-* {
-    /* colors */
-    --footer-color: rgb(77, 16, 16);
-    --footer-text-color: rgb(205, 195, 160);
-    /* fonts */
-    --footer-font: 'Aboreto', cursive;
-}
-
 .footer {
-    background-color: var(--footer-color);
-    color: var(--footer-text-color);
+    background-color: var(--red);
+    color: var(--yellow);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    font-family: var(--footer-font);
+    font-family: var(--font);
 }
 
 .contact_section {

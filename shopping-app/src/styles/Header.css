@@ -3,10 +3,10 @@
 
 * {
     /* colors */
-    --header-color: rgb(77, 16, 16);
-    --header-text-color: rgb(205, 195, 160);
+    --red: rgb(77, 16, 16);
+    --yellow: rgb(205, 195, 160);
     /* fonts */
-    --header-font: 'Aboreto', cursive;
+    --font: 'Aboreto', cursive;
 }
 
 body{
@@ -17,10 +17,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--header-color);
-    color: var(--header-text-color);
+    background-color: var(--red);
+    color: var(--yellow);
     padding: 16px;
-    font-family: var(--header-font);
+    font-family: var(--font);
 }
 
 .navbar {
@@ -35,8 +35,8 @@ body{
     align-items: center;
     height: 32px;
     gap: 8px;
-    background-color: var(--header-text-color);
-    color: var(--header-color);
+    background-color: var(--yellow);
+    color: var(--red);
     padding: 0 8px;
     border-radius: 16px;
     transition: transform 0.25s ease-in;
@@ -49,15 +49,15 @@ body{
 
 .nav_item:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .cart_area:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 a {
     text-decoration: none;
-    color: var(--header-text-color);
+    color: var(--yellow);
 }
