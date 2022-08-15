@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Product.css"
 
 const Product = ({wine}) => {
-    const path = `/${wine.id}`;
+    const path = `/shop/${wine.id}`;
     return (
         <div className="product_card">
             <a href={path}><img className="product_image" src={wine.image} /></a>

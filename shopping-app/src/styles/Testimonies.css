@@ -16,6 +16,7 @@
     align-self: center;
     font-family: var(--font);
     margin-bottom: 24px;
+    font-size: 32px;
 }
 
 .testimony_card {

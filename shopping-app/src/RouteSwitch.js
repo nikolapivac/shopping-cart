@@ -4,22 +4,26 @@ import Contact from "./Contact/Contact";
 import Home from "./Home/Home";
 import Products from "./Products/Products.js"
 import Cart from "./Cart/Cart";
-import products from "./wines.js";
+import Item from "./Item/Item";
+import wines from "./wines.js";
 
 const RouteSwitch = () => {
-  const [wines, setWines] = useState([]);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    setWines(products);
+    setProducts(wines);
   }, [])
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Products wines={wines}/>} />
+        <Route path="/products" element={<Products wines={products}/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
+        {wines.map((wine) => (
+          <Route key={wine.id} path={`/shop/${wine.id}`} element={<Item item={wine} />}/>
+        ))}
       </Routes>
     </BrowserRouter>
   );
