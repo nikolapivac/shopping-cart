@@ -53,3 +53,9 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media (max-width: 500px) {
+    .testimony_container{
+        padding: 5% 10%;
+    }
+}

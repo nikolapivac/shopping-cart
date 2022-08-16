@@ -35,3 +35,17 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media (max-width: 500px) {
+    .cart_container{
+        padding: 20px 8px 400px;
+    }
+
+    .cart_info {
+        margin: 20px 40px;
+    }
+
+    .checkout {
+        margin: 10px 40px;
+    }
+}

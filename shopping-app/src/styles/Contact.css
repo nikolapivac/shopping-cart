@@ -39,3 +39,23 @@ iframe{
     padding: 16px;
     border-radius: 24px;
 }
+
+@media (max-width: 500px) {
+    .contact_container{
+        padding: 40px 40px 200px;
+    }
+
+    iframe{
+        width: 300px;
+        height: 150px;
+    }
+
+    .continfo_container {
+        font-size: 12px;
+        margin: 32px 8px;
+    }
+
+    .social_container {
+        margin: 48px 32px;
+    }
+}

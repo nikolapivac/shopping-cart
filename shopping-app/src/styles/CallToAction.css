@@ -45,3 +45,13 @@ a{
     background-color: var(--red);
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    .cta_title {
+        color: var(--yellow);
+    }
+
+    .cta_btn{
+        margin-right: 40px;
+    }
+}

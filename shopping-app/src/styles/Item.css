@@ -54,3 +54,31 @@
     color: var(--yellow);
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    .item_container {
+        flex-direction: column;
+    }
+
+    .item_image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .item_info {
+        padding: 16px 0;
+        gap: 30px;
+    }
+
+    .item_name {
+        font-size: 32px;
+    }
+
+    .item_price {
+        font-size: 24px;
+    }
+
+    .add_to_cart_btn{
+        margin-top: 16px;
+    }
+}

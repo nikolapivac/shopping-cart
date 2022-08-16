@@ -29,3 +29,30 @@
     color: rgb(157, 45, 45);
     transform: scale(1.1);
 }
+
+@media (max-width: 500px) {
+    .cart_item_container{
+        margin: 0;
+        padding: 16px 16px;
+    }
+
+    .cart_item_image {
+        display: none;
+    }
+
+    .cart_item_name {
+        font-size: 14px;
+    }
+
+    .cart_item_price {
+        font-size: 12px;
+    }
+
+    .cart_item_amount {
+        font-size: 10px;
+    }
+
+    .gg-trash {
+        transform: scale(0.7);
+    }
+}
