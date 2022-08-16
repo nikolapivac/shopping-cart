@@ -1,12 +1,10 @@
 import React from "react";
 import "../styles/Contact.css"
-import Header from "../Header"
-import Footer from "../Footer"
+
 
 const Contact = () => {
     return (
         <>
-            <Header />
             <div className="contact_container">
                 <div className="map_container">
                     <h1>Find Us:</h1>
@@ -23,7 +21,6 @@ const Contact = () => {
                     <a href="https://www.twitter.com"><i className="gg-twitter"></i></a>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

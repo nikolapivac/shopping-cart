@@ -29,5 +29,6 @@
     align-self: center;
     font-family: var(--font);
     color: var(--red);
+    font-size: 18px;
 }
 

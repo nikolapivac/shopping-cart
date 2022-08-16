@@ -30,6 +30,7 @@
     font-size: 18px;
     font-style: italic;
     letter-spacing: 1px;
+    box-shadow: var(--shadow);
 }
 
 .testimony_name {

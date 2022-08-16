@@ -40,6 +40,7 @@ body{
     padding: 0 8px;
     border-radius: 16px;
     transition: transform 0.25s ease-in;
+    box-shadow: var(--shadow);
 }
 
 .nav_item,

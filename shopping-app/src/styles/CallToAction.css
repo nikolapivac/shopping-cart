@@ -37,6 +37,7 @@ a{
     border: none;
     border-radius: 16px;
     transition: background-color 0.25s ease-in;
+    box-shadow: var(--shadow);
 }
 
 .cta_btn:hover {

@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../Header"
-import Footer from "../Footer"
 import Product from "../Product/Product";
 import "../styles/Products.css"
 
@@ -10,13 +8,9 @@ const Products = ({wines}) => {
     ))
 
     return (
-        <>
-            <Header />
-            <div className="products_container">
-                {cards}
-            </div>
-            <Footer />
-        </>
+        <div className="products_container">
+            {cards}
+        </div>
     )
 }
 

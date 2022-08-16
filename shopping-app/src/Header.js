@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles/Header.css"
 
-const Header = () => {
+const Header = ({getCartSize}) => {
     return(
         <div className="header">
-            <div className="logo">Winery</div>
+            <div className="logo">Wine Shop</div>
             <div className="navbar">
-                <a href="/" className="nav_item">Home</a>
-                <a href="/products" className="nav_item">Products</a>
-                <a href="/contact" className="nav_item">Contact</a>
-                <a href="/cart" className="cart_area">
+                <Link to="/" className="nav_item">Home</Link>
+                <Link to="/products" className="nav_item">Products</Link>
+                <Link to="/contact" className="nav_item">Contact</Link>
+                <Link to="/cart" className="cart_area">
                     <i className="gg-shopping-cart"></i>
-                    <p className="cart_num">0</p>
-                </a>
+                    <p className="cart_num">{getCartSize()}</p>
+                </Link>
             </div>
         </div>
     )

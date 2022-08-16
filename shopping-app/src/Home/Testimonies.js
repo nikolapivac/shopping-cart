@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Testimonies.css"
 
 const Testimonies = () => {
@@ -20,7 +21,7 @@ const Testimonies = () => {
                 </p>
                 <p className="testimony_name">Linda</p>
             </div>
-            <a href="/contact"><button className="testimony_contact">Contact Us</button></a>
+            <Link to="/contact"><button className="testimony_contact">Contact Us</button></Link>
         </div>
     )
 }

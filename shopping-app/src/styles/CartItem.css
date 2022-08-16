@@ -1,0 +1,31 @@
+@import url('https://css.gg/trash.css');
+
+.cart_item_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--red);
+    color: var(--yellow);
+    font-family: var(--font);
+    margin: 10px 90px;
+    padding: 16px 32px;
+    border-radius: 16px;
+}
+
+.cart_item_image{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart_item_price,
+.cart_item_name{
+    font-size: 20px;
+}
+
+.gg-trash:hover{
+    cursor: pointer;
+    color: rgb(157, 45, 45);
+    transform: scale(1.1);
+}
