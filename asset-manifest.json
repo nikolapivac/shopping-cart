@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.f82deba3.css",
-    "main.js": "/shopping-cart/static/js/main.88e59804.js",
+    "main.js": "/shopping-cart/static/js/main.ed8f13db.js",
     "static/media/home_banner.jpg": "/shopping-cart/static/media/home_banner.059d6689d38896ca3edd.jpg",
     "static/media/card1.jpg": "/shopping-cart/static/media/card1.f7d21ee877073c27595e.jpg",
     "static/media/card3.jpg": "/shopping-cart/static/media/card3.d52b4776399b56cf40e7.jpg",
@@ -20,10 +20,10 @@
     "static/media/chateau-la-Dominique.jpg": "/shopping-cart/static/media/chateau-la-Dominique.2dddfcc7892a02079287.jpg",
     "index.html": "/shopping-cart/index.html",
     "main.f82deba3.css.map": "/shopping-cart/static/css/main.f82deba3.css.map",
-    "main.88e59804.js.map": "/shopping-cart/static/js/main.88e59804.js.map"
+    "main.ed8f13db.js.map": "/shopping-cart/static/js/main.ed8f13db.js.map"
   },
   "entrypoints": [
     "static/css/main.f82deba3.css",
-    "static/js/main.88e59804.js"
+    "static/js/main.ed8f13db.js"
   ]
 }
