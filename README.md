@@ -14,4 +14,4 @@ Part of The Odin Project, exercised React Router
 
 ## Preview
 
-Results can be seen [here](https://nikolapivac.github.io/shopping-app/).
+Results can be seen [here](https://nikolapivac.github.io/shopping-cart/).
