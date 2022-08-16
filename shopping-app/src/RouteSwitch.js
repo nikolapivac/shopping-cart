@@ -48,7 +48,7 @@ const RouteSwitch = () => {
   };
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/shopping-cart/">
       <Header getCartSize={getCartSize}/>
       <Routes>
         <Route path="/" element={<Home />} />
